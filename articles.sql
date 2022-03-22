@@ -1,0 +1,15 @@
+USE eCommerce;
+
+INSERT INTO `articles` (`id`, `user_id`, `main_tag_id`, `name`, `price`, `components`, `description`, `status`, `stock`, `promotion`, `release_date`, `delivery_price`, `size`) VALUES
+(100, 1, 1, 'Dosettes à café réutilisables', 3000, 'a:1:{i:0;s:25:\"acier, plastique recyclé\";}', "Commencez vos journées avec ces superbes capsules à café réutilisables, vous aurez le choix, il n'y a plus qu'à remplir !", 'WAITING', NULL, NULL, NULL, 20, 'N;'),
+(101, 1, 2, 'Poubelle Smart', 5000, 'a:5:{i:0;s:5:\"acier\";i:1;s:19:\" plastique recyclé\";i:2;s:15:\"nanotechnologie\";i:3;s:8:\"panneaux\";i:4;s:7:\"solaire\";}', 'Découvrez notre poubelle totalement intuitive, qui trie, détruit, conbuste, ou tourne en engrais tout vos déchets', 'WAITING', 10, 10, NULL, 150, 'N;'),
+(102, 1, 4, 'Chemises en lin recylé', 3500, 'a:3:{i:0;s:5:\"acier\";i:1;s:12:\"lin recyclé\";i:2;s:6:\"fibres\";}', 'Découvrez notre ligne de super chemises en lin recyclé spécial été, elle sera votre meilleur aliée dans les périodes de forte chaleur', 'WAITING', NULL, NULL, NULL, 20, 'N;'),
+(103, 1, 4, 'Chaussettes en laine recyclée', 1000, 'a:2:{i:0;s:5:\"laine\";i:1;s:6:\"fibres\";}', 'Découvrez notre ligne de super chaussettes en laine recyclée spécial hiver, elles seront vos meilleures alliées pendant votre séjour à la montagne', 'WAITING', NULL, NULL, NULL, 50, 'N;'),
+(104, 1, 5, "jeu d'échec", 4569, 'a:1:{i:0;s:14:"bois de chêne";}', "Un jeu d'échec fait par un artisan", 'WAITING', 5, 15, null, 500, 'N;'),
+(105, 1, 3, "Pâtes coquillettes maison 500g", 250, 'a:1:{i:0;s:24:"farine de blé complète";}', 'Des coquillettes produites par un maitre italien', 'WAITING', 45, null, null, 50, 'N;'),
+(106, 1, 3, "Matcha en poudre 30g", 400, 'a:1:{i:0;s:6:"Matcha";}', "Cultivé en France selon les règles de l'AB", 'WAITING', 10, null, null, 150, 'N;'),
+(107, 1, 1, "Lit une place", 22999, 'a:2:{i:0;s:13:"Bois d\'hêtre";i:1;s:6:"Plumes";}', 'Lit confortable, recommandé par Ronflex', 'WAITING', 7, 40, null, 150, 'N;'),
+(108, 1, 2, "Fairphone 4", 57900, 'a:2:{i:0;s:33:"3905 mAh amovible Li-ion batterie";i:1;s:24:"Double sim compatible 5g";}', "Notre téléphone le plus durable à ce jour, désormais doté d'une vitesse 5G, d'une garantie de 5 ans et neutre en termes de déchets électroniques. Choisissez le Fairphone qui vous convient.", 'VALIDATED', 17, null, null, 1000, 'N;'),
+(109, 1, 6, "Vaseline bio 500g", 1190, 'a:1:{i:0;s:8:"Vaseline";}', 'Vaseline (petroleum jelly) blanche de qualité pharmaceutique (Codex), vendue en pots de 500g.', 'VALIDATED', 10, 33, null, 100, 'N;'),
+(110, 1, 6, "Crème hydrapaisante 30ml", 3900, 'a:2:{i:0;s:5:"Verre";i:1;s:13:"Bois d\'hêtre";}', "Onctueuse, au parfum léger et frais, la première crème équilibrée pour les peaux sèches à mixtes qui ont besoin d’être apaisées en douceur et hydratées en profondeur.", 'VALIDATED', 20, null, null, 600, 'N;'),
+(111, 1, 5, "Cerf volant", 1495, 'a:1:{i:0;s:9:"Polyester";}', "Ce cerf-volant occupera vos enfants lors des journée venteuses. Ils testeront leur adresse et leur réflexes avec plaisir.", 'VALIDATED', 15, 50, null, 200, 'N;');
